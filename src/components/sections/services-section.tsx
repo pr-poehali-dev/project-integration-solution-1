@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Полный цикл работы с оборудованием</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Поставка оборудования",
+              description: "Интерактивные доски, панели, проекторы и другое учебное оборудование, сертифицированное по ФГОС",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Монтаж и настройка",
+              description: "Профессиональная установка и первичная настройка техники специалистами «Квадрис»",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Закупки по 44-ФЗ / 223-ФЗ",
+              description: "Помогаем оформить технические задания и сопровождаем закупки в соответствии с законодательством",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Обучение и сервис",
+              description: "Инструктаж персонала по работе с оборудованием и гарантийное обслуживание от производителя",
               direction: "bottom",
             },
           ].map((service, i) => (
